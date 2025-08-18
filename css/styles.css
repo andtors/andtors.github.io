@@ -115,6 +115,30 @@
     max-width: 20px;
 }
 
+#certification-title {
+   margin: .5rem 0;
+}
+
+#certifications li {
+    border: 1px solid #54B689;
+    background-color: #54B689;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#certifications a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#certifications li:hover {
+    transition: .5s;
+    border: 1px solid #54B689;
+    background-color: #1E2A3A;
+}
+
+
 #name {
     font-size: 42px;
     margin-bottom: 15px;
